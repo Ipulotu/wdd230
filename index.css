@@ -1,0 +1,53 @@
+
+html{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    filter: drop-shadow(0 0 0.75rem rgb(10, 10, 10));
+    padding: 3em;
+    border-radius: 15px;
+    align-items: center;
+    background-color: rgb(52, 112, 202, 0.884);
+}
+
+header img{
+    box-shadow: 1px 1px 4px 1px ;
+    grid-column: 1/2;
+    max-width: 100%;
+}
+header h1{
+    filter: drop-shadow(0 0 0.75rem rgb(10, 10, 10));
+    grid-column: 2/3;
+    justify-self: center;
+    color: aliceblue;
+}
+
+main h1{
+    filter: drop-shadow(0 0 0.75rem rgb(10, 10, 10));
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bar{
+    height: 1px;
+    background-color: black;
+}
+
+main p{
+    font-style: italic;
+}
+
+footer{
+    filter: drop-shadow(0 0 0.75rem rgb(10, 10, 10));
+    border-radius: 15px;
+    padding: .25em;
+    align-items: center;
+    background-color: rgba(52, 112, 202, 0.884);
+    color: aliceblue;
+    text-align: center;
+}
+
+#lastupdated{
+    color: rgb(162, 168, 44);
+}
