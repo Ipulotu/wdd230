@@ -25,6 +25,8 @@ header h1{
     grid-column: 2/3;
     justify-self: center;
     color: aliceblue;
+    font-family:'Lobster', cursive;
+    font-size: 3em;
 }
 
 main h2{
