@@ -1,5 +1,58 @@
 
-.sections-grid{
+body{
+    
+    font-family: 'Roboto Slab', serif;
+}
+
+header{
+    background-color: rgb(27, 27, 114);
+    color: aliceblue;
+    padding: .5em;
+    text-align: center;
+}
+
+section img{
+    width: 340;
+    height:  auto;
+    padding: 1em;
+}
+
+h1, h2 {
+    font-family: 'Lobster', cursive;
+}
+
+section h2 {
+    background-color: rgba(46, 100, 180, 0.884);
+    color: white;
+    padding: .5em;
+    margin: 0em;
+    border-top-left-radius:  15px;
+    border-top-right-radius: 15px;
+}
+
+#sections-grid{
     display: grid;
     grid-template-columns: 1fr;
 }
+
+section {
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgb(94, 94, 94);
+    background-color: rgb(213, 215, 243);
+    margin: 1.5em;
+    border-top-left-radius:  15px;
+    border-top-right-radius: 15px;
+}
+
+section p{
+    padding: .5em;
+    margin: 0px;
+}
+
+footer{
+    background-color: rgb(27, 27, 114);
+    color: aliceblue;
+    padding: .5em;
+    text-align: center;
+    }
