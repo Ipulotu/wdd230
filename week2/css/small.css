@@ -12,9 +12,10 @@ header{
 }
 
 section img{
-    width: 340;
+    width: 320px;
     height:  auto;
     padding: 1em;
+    justify-self: center;
 }
 
 h1, h2 {
@@ -40,9 +41,12 @@ section {
     border-width: 1px;
     border-color: rgb(94, 94, 94);
     background-color: rgb(213, 215, 243);
-    margin: 1.5em;
     border-top-left-radius:  15px;
     border-top-right-radius: 15px;
+    max-width: 380px;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 section p{

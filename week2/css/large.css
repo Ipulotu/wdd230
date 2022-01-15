@@ -1,12 +1,13 @@
-@media (min-width: 1100px){
+@media (min-width: 1200px){
     #sections-grid{
         grid-template-columns: 1fr 1fr 1fr;
     }
 
     #spanning-section{
         grid-column: span 1;
+        max-width: 380px;
     }
     #spanning-section img{
-        width: 340px;
+        width: 320px;
     }
 }
