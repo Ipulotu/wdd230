@@ -20,13 +20,13 @@
         display: block;
     }
 
+    /* to do latter 
     #events{
-      
     }
 
     #weather{
     }
-
+    */
     .footerGrid{
         display: flex;
     }
