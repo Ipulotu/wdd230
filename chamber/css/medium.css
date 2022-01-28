@@ -5,10 +5,6 @@
        font-size: 1.5rem ;
     }
 
-    #mainGrid{
-    }
-
-
     #sectionGrid{
         display: flex;
     }
@@ -21,6 +17,8 @@
     }
 
     /* to do latter 
+    #mainGrid{
+    }
     #events{
     }
 
