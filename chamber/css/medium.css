@@ -1,0 +1,41 @@
+@media only screen and (min-width:34rem) {
+
+    .navGrid > h1{
+       padding-right: .5rem;
+       font-size: 1.5rem ;
+    }
+
+    #mainGrid{
+    }
+
+
+    #sectionGrid{
+        display: flex;
+    }
+    #sectionGrid > div{
+        flex: 1;
+    }
+
+    #join{
+        display: block;
+    }
+
+    #events{
+      
+    }
+
+    #weather{
+    }
+
+    .footerGrid{
+        display: flex;
+    }
+
+    .footerGrid img{
+        max-width: 100px;
+        height: auto;
+    }
+
+
+    }
+    /*End of media quore*/

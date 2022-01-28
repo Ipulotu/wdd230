@@ -1,0 +1,139 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html{
+	background-color: #36454f;
+}
+
+body {
+	background-color: #CFC7D2;
+    max-width: 767px;
+	margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navGrid {
+    display: flex;
+    padding: .5rem;
+    align-items:center;
+}
+
+nav img{
+    max-width: 5rem;
+}
+
+.smallIcon{
+    max-width: 3rem;
+}
+
+nav{
+    background-color: #fff;
+}
+
+nav h1{
+    font-size: 1rem;
+    justify-self: center;
+}
+
+nav p{
+    text-align: center;
+    padding: 1em;
+    background-color: #140B4C;
+    color: #eee;
+    margin: 0;
+}
+
+nav button{
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+    border: solid #140B4C;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw; 
+    text-decoration: none;
+    color: #140B4C;
+    border-top: solid #140B4C;
+}
+
+nav ul li.active a {
+    background-color: #140B4C;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    background-color: #CFC7D2;
+}
+
+nav ul{display: none;}
+nav ul.open{display: block;}
+
+#hamburgerBtn span:nth-child(1){display: block;}
+#hamburgerBtn span:nth-child(2){display: none;}
+
+#hamburgerBtn.open span:nth-child(1){display: none;}
+#hamburgerBtn.open span:nth-child(2){display: block;}
+
+#mainGrid{
+    display: grid;
+}
+
+#mainGrid section{
+    padding: .5rem;
+    margin: .3rem;
+    background-color: #eee;
+    border: 1px solid #140B4C;
+}
+
+#sectionGrid{
+    display: grid;
+}
+
+#sectionGrid div{
+    padding: .5rem;
+    background-color: #eee;
+    border: 1px solid #140B4C;
+}
+
+footer{
+    text-align: center;
+}
+
+.footerGrid{
+    display: grid;
+    justify-content: center;
+    margin: .5rem;
+    align-items:center;
+}
+
+.footerGrid img{
+    justify-self: center;
+}
+
+.footerGrid p{
+    color: #5E00FF;
+    padding: .5rem;
+}
+#map
+    {border: .5px solid #140B4C;
+}
+
+#join{
+    display: none;
+}
+
+#spotlight3{
+    display: none;
+}
