@@ -89,8 +89,52 @@ nav ul.open{display: block;}
 #hamburgerBtn.open span:nth-child(1){display: none;}
 #hamburgerBtn.open span:nth-child(2){display: block;}
 
+#banner {display: none;}
+#banner.show{
+    display: block;
+    position: relative;
+    
+}
+
+#banner img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+
+#banner a{
+    display: block;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #140B4C;
+    text-align: center;
+    font-size: .75rem;
+
+}
+
+
+section{
+    text-align: center;
+}
+
 #mainGrid{
     display: grid;
+}
+
+#mainGrid img{
+    max-width: 100px;
+    max-height: 100px;
+    height: auto;
 }
 
 #mainGrid section{
@@ -100,15 +144,88 @@ nav ul.open{display: block;}
     border: 1px solid #140B4C;
 }
 
+
+
+#hero {
+    position: relative;
+}
+
+
+
+
+#hero img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0;
+
+}
+
+#hero a{
+    display: block;
+    background-color:green;
+    border-radius: 15px;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 28%;
+
+}
+
+#join a {
+    display: block;
+    background-color:green;
+    border-radius: 15px;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+   
+}
+
+
+
+
+
+#weather div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#temp{
+    font-size: 2rem;
+    padding-left: .5rem;
+}
+
 #sectionGrid{
     display: grid;
 }
+
 
 #sectionGrid div{
     padding: .5rem;
     background-color: #eee;
     border: 1px solid #140B4C;
 }
+
+.border{
+    border-top:  1px solid #140B4C;
+    padding-top: 0.5rem;
+}
+
+#spotlight3 img {
+    max-height: 100px;
+}
+
+
+
+
+
+
+
+
+
 
 footer{
     text-align: center;

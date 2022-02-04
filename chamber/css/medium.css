@@ -16,6 +16,18 @@
         display: block;
     }
 
+    #hero a{
+        left: 35%;
+    
+    }
+
+
+    #banner a{
+        font-size: 1rem;
+        padding: 12px 24px;
+
+    }
+
     /* to do latter 
     #mainGrid{
     }

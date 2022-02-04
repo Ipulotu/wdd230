@@ -31,7 +31,7 @@
         border: none;
         border-right: 1px solid rgba(0,0,0,0.3);
     }
-    
+   
     #mainGrid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -49,7 +49,12 @@
 
     #hero{
         grid-area:hero;
+    }
 
+    #hero a{
+        grid-area:hero;
+        left: 30%;
+        top: 45%;
     }
 
     #join{
