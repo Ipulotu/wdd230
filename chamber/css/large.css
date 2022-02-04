@@ -1,4 +1,4 @@
-@media only screen and (min-width:46rem) {
+@media only screen and (min-width:50rem) {
 
 
     .navGrid > *{
@@ -34,7 +34,7 @@
    
     #mainGrid{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 20% 50% 30%;
         grid-template-rows: auto;
         grid-template-areas: 
           "event hero  slight"
@@ -49,13 +49,20 @@
 
     #hero{
         grid-area:hero;
+        position: relative;
     }
 
     #hero a{
         grid-area:hero;
-        left: 30%;
-        top: 45%;
+        position: absolute;
+        
+        top: 60%;
+        font-size: 2rem;
+
     }
+
+
+
 
     #join{
         grid-area:join;
