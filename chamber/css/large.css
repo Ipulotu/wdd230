@@ -55,7 +55,6 @@
     #hero a{
         grid-area:hero;
         position: absolute;
-        
         top: 60%;
         font-size: 2rem;
 

@@ -12,6 +12,10 @@
         flex: 1;
     }
 
+    #hero a{
+        font-size: 1.5rem;
+    }
+    
     #join{
         display: block;
     }
@@ -23,15 +27,7 @@
 
     }
 
-    /* to do latter 
-    #mainGrid{
-    }
-    #events{
-    }
-
-    #weather{
-    }
-    */
+  
     .footerGrid{
         display: flex;
     }
