@@ -190,7 +190,10 @@ section{
     align-items: center;
 }
 
-#temp{
+
+
+
+#temp, #tempText{
     font-size: 2rem;
     padding-left: .5rem;
 }

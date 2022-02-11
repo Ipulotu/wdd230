@@ -16,6 +16,7 @@
 
     <script defer src="../lesson6/js/index.js"></script>
     <script defer src="js/chamber.js"></script>
+    <script defer src="js/windchill.js"></script>
 </head>
 <body>
     <header>
@@ -64,11 +65,11 @@
             <h3>Weather</h3>
             <div>
                 <img id="weatherIcon" src="images/thunderstorm-gea560f1ed_640.png" alt="Weather Icon">
-                <p id="temp">33c</p>
+                <p id ="tempText"><span id="temp">33</span>&#8457</p>
             </div>  
             <p id="weatherText">Thunderstorms and Rain</p>
-            <p class ="border">Wind Speed: 2.5 km/h<span id="windspeed"></span></p>
-            <p>Wind chill: N/A <span id="windchill"></span></p>
+            <p class ="border">Wind Speed: <span id="windSpeed">3.5</span> mph</p>
+            <p>Wind chill: <span id="windchill">N/A</span></p>
         </section>
         <section id="sectionGrid">
             <div>
