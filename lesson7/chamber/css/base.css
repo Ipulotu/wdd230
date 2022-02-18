@@ -281,26 +281,21 @@ footer{
  .discover-pic{
         display: grid;
         margin: 0.5rem;
-        justify-content: center;
  }
 
 
 
  .discover-pic img{
     max-width: 225px;
-    height: auto;
  }
 
  .discover-pic a{
-    align-self: center;
     justify-self: center;
  }
 
 
 
- .discover-grid{
-     display: grid;
- }
+ 
 
 
  
