@@ -1,0 +1,38 @@
+
+/* ============ defalt ============= */
+
+html {
+    font-family: Ubuntu, sans-serif;
+    max-width: 250px;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+/* Formatting */
+
+table, td, th{
+    background-color: rgb(199, 225, 235);
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(1) th{
+    background-color:rgba(124, 190, 252, 0.808);
+    padding:.5rem;
+}
+
+.color1{
+    color:white;
+    background-color: rgb(68, 141, 236);
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+tr:nth-child(7) td{
+    text-align: center;
+}
+
+tfoot th{
+    font-size: .5rem;
+
+}
