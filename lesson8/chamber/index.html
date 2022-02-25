@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="This page hub of the enter site and will have namy links to other pages.">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <title>Beaumont C.C.</title>
+
+    <script defer src="../../js/index.js"></script>
+    <script defer src="js/chamber.js"></script>
+    <script defer src="js/windchill.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navGrid">
+                <img src="images/logo_small.webp" alt="BCC logo">
+                <h1>Beaumont Chamber of Commerce</h1>
+                <a href="https://www.facebook.com/" target="_blank" id="fac"><img class="smallIcon" src="images/fbook_icon.webp" alt="facebook picture" ></a>
+                <a href="https://twitter.com/?lang=en/" target="_blank" id="goo"><img class="smallIcon" src="images/twiter_logo.webp" alt="Twitter picture"></a>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>&#10006;</span></button>
+            </div>
+            <ul id="primeryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="">Typography</a></li>
+            </ul>
+            <p class="infoDisplay" id="date"></p>
+            </nav>
+            <div id="banner" >
+                <img src="images/Document.jpg" alt="BCC logo">
+                <a href="">Come join us for the chamber meet and greet Wednesday at 7:00 p.m</a>
+            </div>
+    </header>  
+
+    <main id="mainGrid">
+       <div id="hero">
+            <h2>Welcome to Beaumont</h2>
+            <picture>
+                <source media="(min-width:55rem)" srcset="images/herolarge.webp">
+                <source media="(min-width:35rem)" srcset="images/heromedium.webp">
+                <img  src="images/herosmall.webp" alt="Beaumont picture">
+            </picture>
+            <a href="">Join the Chamber</a> 
+        </div>
+        <section id="news">
+            <h3>News Release</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </section>
+        <section id="events">
+            <h3>Ribbon Cutting</h3>
+            <p><strong>The Diamond Shack</strong> <br> 
+            Join us for the grand opening of The Diamond Shack, Thursday at 1:00 p.m. <span><a href="">more info ...</a></span> </p>
+        </section>
+        <section id="weather">
+            <h3>Weather</h3>
+            <div>
+                <img id="weatherIcon" src="images/thunderstorm.webp" alt="Weather Icon">
+                <p id ="tempText"><span id="temp">33</span>&#8457; </p>
+            </div>  
+            <p id="weatherText">Thunderstorms and Rain</p>
+            <p class ="border">Wind Speed: <span id="windSpeed">3.5</span> mph</p>
+            <p>Wind chill: <span id="windchill">N/A</span></p>
+        </section>
+        <section id="sectionGrid">
+            <div>
+                <h3>Thankful Transport</h3>
+                <img src="images/truck.webp" alt="Transport picture">
+                <p>"we get it there for you!"</p>
+                <p class ="border">hello@ThankfulTransport.com <br> +999-999-99999 | <a href="">Website</a></p>
+            </div>
+            <div>
+                <h3>Code Primera</h3>
+                <img src="images/code_camp.webp" alt="Code picture">
+                <p>An after school coding instructional program.</p>
+                <p class ="border">contact@CodePrimera.com <br> +999-999-99999 | <a href="">Website</a></p>
+            </div>
+            <div id="spotlight3">
+                <h3>Build A Treefort</h3>
+                <img src="images/tree.webp" alt="Treefort picture">
+                <p>Over 1000 Plans!</p>
+                <p class ="border">contact@Treefort.com <br> +999-999-99999 | <a href="">Website</a></p>
+            </div>
+        </section>
+        <section id="join">
+            <h3><a href="">Join Us!</a></h3>
+            <p>Discover how to join the Beaumont Chamber of Commerce and how it will benefit your organization! </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footerGrid">
+            <img src="images/logo_small.webp" alt="BCC logo">
+            <p><strong>Beaumont Chamber of Commerce</strong><br>5004 49 Ave, Beaumont,<br> Alberta T4X 1E4  </p>
+            <p>BeaumontCoC@gmail.com <br>1(234)567-8910</p>
+            <a href="https://goo.gl/maps/QnA5LVNdtiZ3m9h96" target="_blank"><img id="map" src="images/Map.webp" alt="Map of our location"></a>
+        </div>
+        <p>@<span id="year"></span> Beaumont C.C. | Ikaika Pulotu | WDD 230 Project | Last Updataed: <span id="lastupdated"></span></p>
+    </footer>
+</body>
+</html>

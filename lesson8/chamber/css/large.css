@@ -1,0 +1,104 @@
+@media only screen and (min-width:55rem) {
+
+
+    .navGrid > *{
+        flex: 1;
+    }
+
+    .navGrid > h1{
+        flex: 10;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    nav button{
+        display: none;
+    }
+
+    #primeryNav > li{
+        flex: 1;
+        border: 1px solid #140B4C;
+        margin: 0;
+    }
+
+    nav ul#primeryNav{
+        display: flex;
+        border-left: 1px solid rgba(0,0,0,0.3);
+    
+    }
+    
+    nav ul li a{
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+    }
+   
+    #mainGrid{
+        display: grid;
+        grid-template-columns: 20% 50% 30%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+          "event hero  slight"
+          "weather hero  slight"
+          "join news slight";
+        }
+
+    #news{
+        grid-area:news;
+
+    }
+
+    #hero{
+        grid-area:hero;
+        position: relative;
+    }
+
+    #hero a{
+        grid-area:hero;
+        position: absolute;
+        top: 80%;
+        font-size: 2rem;
+
+    }
+
+
+
+
+    #join{
+        grid-area:join;
+     
+    }
+    
+    #events{
+        grid-area:event;
+    }
+
+    #weather{
+        grid-area:weather;
+    }
+
+
+    #sectionGrid{
+        flex-direction: column;
+        grid-area:slight;
+    }
+   
+    #spotlight3{
+        display: block;
+    }
+
+
+
+
+
+
+
+    .discover-pic img:hover {box-shadow: 0 0 50px #333;}
+
+
+    
+    }
+    /*End of media quore*/
+
+
+
+
