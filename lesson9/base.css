@@ -1,0 +1,28 @@
+html{
+    text-align: center;
+    margin: auto;
+}
+
+h1, h2{
+    color: rgb(87, 26, 199);
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-content: center;
+    border: 2px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.288), 0 6px 20px 0 rgba(0, 0, 0, 0.301);
+    padding: .5rem;
+}
+
+.cards section{
+    background-color: rgb(206, 196, 221);
+    border: 2px solid;
+    margin: .5rem;
+}
+
+.cards img{
+    max-width: 200px;
+}
+
