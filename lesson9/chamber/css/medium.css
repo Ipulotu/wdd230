@@ -1,0 +1,50 @@
+@media only screen and (min-width:35rem) {
+
+    .navGrid > h1{
+       padding-right: .5rem;
+       font-size: 1.5rem ;
+    }
+
+    #sectionGrid{
+        display: flex;
+    }
+    #sectionGrid > div{
+        flex: 1;
+    }
+
+    #hero a{
+        font-size: 1.5rem;
+    }
+    
+    #join{
+        display: block;
+    }
+
+   
+    #banner a{
+        font-size: 1rem;
+        padding: 12px 24px;
+
+    }
+
+  
+    .footerGrid{
+        display: flex;
+    }
+
+    .footerGrid img{
+        max-width: 100px;
+        height: auto;
+    }
+
+    .discover-pic{
+        display: flex;
+        margin: 1rem;
+        gap: 1rem;
+ }
+
+
+    .discover-pic img:hover {box-shadow: 0 0 50px #333;}
+
+    }
+    /*End of media quore*/

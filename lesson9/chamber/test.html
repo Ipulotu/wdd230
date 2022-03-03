@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>tiltel of fourm</h1>
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>applicant information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+            <label>Email*<input type="email" name="email"></label>
+            <label>Website<input type="url" name="url" placeholder="http://"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Coruse Information</legend>
+            <div>Audience</div>
+            <label><input type="radio" name="audience" value="Beginner">Beginner</label>
+            <label><input type="radio" name="audience" value="Intermediate">Intermediate</label>
+            <label><input type="radio" name="audience" value="Advance">Advance</label>
+
+            <div>Software Needed </div>
+            <label><input type="checkbox" name="edditing" value="yes">Photo editing</label>
+            <label><input type="checkbox" name="code" value="yes">codeing</label>
+            <label><input type="checkbox" name="process" value="yes">preprosser</label>
+            <label><input type="checkbox" name="client" value="yes">FTP Client</label>
+        </fieldset>
+
+        <fieldset>
+            <label>Anticipated Completion Date <input type="date" name="completionDate"></label>
+            <label>Coruse Subject
+                <select name="sunject">
+                    <option value="">Please Select</option>
+                    <option value="Software">Software developmot</option>
+                    <option value="1">1 developmot</option>
+                    <option value="2">2 developmot</option>
+                    <option value="3">3 developmot</option>
+                    <option value="4">4 developmot</option>
+                    <option value="5">5 developmot</option>
+                </select>
+            </label>
+            <label>How many authors?<input type="number" name="authors"></label>
+        </fieldset>
+
+        <input type="submit" value="Prepose My Cours">
+
+    </form>
+</body>
+</html>
