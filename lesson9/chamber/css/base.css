@@ -87,11 +87,11 @@ nav ul li a:hover{
 nav ul{display: none;}
 nav ul.open{display: block;}
 
-#hamburgerBtn span:nth-child(1){display: block;}
-#hamburgerBtn span:nth-child(2){display: none;}
+#hamburgerBtnNav span:nth-child(1){display: block;}
+#hamburgerBtnNav span:nth-child(2){display: none;}
 
-#hamburgerBtn.open span:nth-child(1){display: none;}
-#hamburgerBtn.open span:nth-child(2){display: block;}
+#hamburgerBtnNav.open span:nth-child(1){display: none;}
+#hamburgerBtnNav.open span:nth-child(2){display: block;}
 
 #banner {display: none;}
 #banner.show{
@@ -351,3 +351,44 @@ footer{
     margin-top: 10rem;
     text-align: center;
 }
+
+
+
+/*==========Directory page============*/
+
+
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-content: center;
+    border: 2px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.288), 0 6px 20px 0 rgba(0, 0, 0, 0.301);
+    padding: .5rem;
+}
+
+.cards section{
+    background-color: white;
+    border: 2px solid;
+    margin: .5rem;
+}
+
+.cards img{
+    max-width: 200px;
+}
+
+.table{
+    background-color: white;
+}
+
+.table tr{
+    display: grid;
+    padding:  1rem;
+}
+
+.table a:link{
+    color:#140B4C
+}
+
+

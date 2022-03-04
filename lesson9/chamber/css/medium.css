@@ -37,6 +37,9 @@
         height: auto;
     }
 
+
+     /* ==============discover page=============*/ 
+
     .discover-pic{
         display: flex;
         margin: 1rem;
@@ -45,6 +48,30 @@
 
 
     .discover-pic img:hover {box-shadow: 0 0 50px #333;}
+
+
+/*==========Directory page============*/
+
+
+
+.table tr{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.table tr:nth-child(odd) {
+    background-color: #CFC7D2;
+}
+
+.table td{
+    font-size: .8rem;
+
+}
+
+
+
+
+
 
     }
     /*End of media quore*/
