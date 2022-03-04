@@ -356,10 +356,26 @@ footer{
 
 /*==========Directory page============*/
 
+#directoryTitle{
+    font-size: 2rem;
+    margin: 0%;
+    padding: 1rem;
+}
+#directoryBnts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+#directoryBnts button{
+    justify-content: center;
+    font-size: 2rem;  
+}
 
 
-
-.cards{
+#cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     justify-content: center;
@@ -367,28 +383,36 @@ footer{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.288), 0 6px 20px 0 rgba(0, 0, 0, 0.301);
     padding: .5rem;
 }
-
-.cards section{
+#cards section{
     background-color: white;
     border: 2px solid;
     margin: .5rem;
+    padding: .75rem;
 }
 
-.cards img{
+#cards img{
     max-width: 200px;
 }
 
-.table{
+#table{
     background-color: white;
+    border: 2px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.288), 0 6px 20px 0 rgba(0, 0, 0, 0.301);
 }
 
-.table tr{
+#table tr{
     display: grid;
     padding:  1rem;
 }
 
-.table a:link{
-    color:#140B4C
+#table tr:nth-child(odd) {
+    background-color: #CFC7D2;
 }
+
+#cards.hide {display: none;}
+#table.hide {display: none;}
+
+
+
 
 

@@ -1,6 +1,6 @@
 
-const cards = document.querySelector('.cards');
-const table = document.querySelector('.table');
+const cards = document.querySelector('#cards');
+const table = document.querySelector('#table');
 
 fetch("https://ipulotu.github.io/wdd230/lesson9/chamber/data/data.json")
 .then(response => {
@@ -54,7 +54,7 @@ fetch("https://ipulotu.github.io/wdd230/lesson9/chamber/data/data.json")
     let name = document.createElement('td');
     let address = document.createElement('td');
     let phone = document.createElement('td');
-    let website = document.createElement('td');
+    let website = document.createElement('a');
 
     // Change the textContent property of the h2 element to contain the business's full name
     name.textContent = `${business.name}`;
@@ -72,9 +72,20 @@ fetch("https://ipulotu.github.io/wdd230/lesson9/chamber/data/data.json")
     tr.appendChild(website);
 
     table.appendChild(tr);
-
-    
-
-
-
   }
+
+  
+function togglrDirectory(elementToShow, elementToHide) {
+  if (elementToHide.classList.contains("hide")){
+    elementToHide.classList.remove("hide");
+  }
+  if (!elementToShow.classList.contains("hide")){
+    elementToShow.classList.toggle("hide");
+  }
+}
+
+const cardsBnt = document.getElementById('hamburgerBtnCards')
+const tableBnt = document.getElementById('hamburgerBtnTable')
+
+cardsBnt.onclick = function(){togglrDirectory(cards, table);}
+tableBnt.onclick = function(){togglrDirectory(table, cards);}

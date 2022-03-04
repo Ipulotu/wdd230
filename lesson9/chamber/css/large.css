@@ -89,25 +89,19 @@
 
 
 
-
-
-
     .discover-pic img:hover {box-shadow: 0 0 50px #333;}
 
 
-
-
     /*==========Directory page============*/
-
-
     
-    
+    #table tr{
+        grid-template-columns: repeat(auto-fit, 22%);
+    }
 
+    #table tr  td:nth-child(3){
+        text-align: center;
+     }
 
-
-
-
-    
     }
     /*End of media quore*/
 

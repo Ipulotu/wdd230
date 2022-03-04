@@ -53,25 +53,9 @@
 /*==========Directory page============*/
 
 
-
-.table tr{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-}
-
-.table tr:nth-child(odd) {
-    background-color: #CFC7D2;
-}
-
-.table td{
+#table td{
     font-size: .8rem;
-
 }
-
-
-
-
-
 
     }
     /*End of media quore*/
