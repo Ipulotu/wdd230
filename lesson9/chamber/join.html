@@ -26,8 +26,8 @@
             <div class="navGrid">
                 <img src="images/logo_small.webp" alt="BCC logo">
                 <h1>Beaumont Chamber of Commerce</h1>
-                <a href="https://www.facebook.com/" target="_blank" id="fac"><img class="smallIcon" src="images/fbook_icon.webp" alt="facebook picture" ></a>
-                <a href="https://twitter.com/?lang=en/" target="_blank" id="goo"><img class="smallIcon" src="images/twiter_logo.webp" alt="Twitter picture"></a>
+                <a href="https://www.facebook.com/" target="_blank" id="fac"><img class="smallIcon" src="images/fbook_icon.webp" alt="facebook picture" width="48" height="48"></a>
+                <a href="https://twitter.com/?lang=en/" target="_blank" id="goo"><img class="smallIcon" src="images/twiter_logo.webp" alt="Twitter picture" width="48" height="48"></a>
                 <button id="hamburgerBtnNav"><span>&#9776;</span><span>&#10006;</span></button>
             </div>
             <ul id="primeryNav">
@@ -60,18 +60,23 @@
             <legend>Membership Information</legend>
             <div>Chooses Your Membership Level </div>
             <label class="sbs_input"><input type="radio" name="membership" value="Bronze">Bronze Membership</label>
+            <p>Price: $50 Annually Includes: Trainings & Weekly Emails</p>
             <label class="sbs_input"><input type="radio" name="membership" value="Silver">Silver Membership</label>
+            <p>Price: $85 Annually Includes: Trainings & Home Page Spotlights </p>
             <label class="sbs_input"><input type="radio" name="membership" value="Gold">Gold Membership</label>
+            <p>Price: $100 Annually Includes:  Trainings, Home Page Spotlights, Event Discounts and more! </p>
             <label class="sbs_input"><input type="radio" name="membership" value="NP">NP Membership</label>
+            <p>Price: Free Includes: All of the above features</p>
         </fieldset>
 
         <fieldset>
             <legend>Business Information</legend>
-            <label><textarea name="description" placeholder="Tell us a little bit about your business." rows="4" cols="50"></textarea></label>
+            <textarea name="description" placeholder="Tell us a little bit about your business." rows="4" cols="50"></textarea>
         </fieldset>
 
         <fieldset>
-            <label>Would you like ot recive...</label>
+            <legend>Subscription</legend>
+            <label>Would you like to recive...</label>
             <label class="sbs_input"><input type="checkbox" name="newsletters" value="yes">Weekly Newsletters</label>
             <label class="sbs_input"><input type="checkbox" name="promotions" value="yes">Special Promotions</label>
             <input  id="datetime" type="hidden" name="datetime" value="">

@@ -352,6 +352,10 @@ footer{
     text-align: center;
 }
 
+fieldset p{
+    padding-left: 2rem;
+}
+
 
 
 /*==========Directory page============*/
