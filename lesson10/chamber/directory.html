@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page provides and information listing of the businesses that belong to the chamber. ">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <title>Business Directory</title>
+</head>
+    <script defer src="../../js/index.js"></script>
+    <script defer src="js/chamber.js"></script>
+    <script defer src="js/directory.js"></script>
+<body>
+    <header>
+        <nav>
+            <div class="navGrid">
+                <img src="images/logo_small.webp" alt="BCC logo">
+                <h1>Beaumont Chamber of Commerce</h1>
+                <a href="https://www.facebook.com/" target="_blank" id="fac"><img class="smallIcon" src="images/fbook_icon.webp" alt="facebook picture" height="48" width="48"></a>
+                <a href="https://twitter.com/?lang=en/" target="_blank" id="goo"><img class="smallIcon" src="images/twiter_logo.webp" alt="Twitter picture" height="48" width="48"></a>
+                <button id="hamburgerBtnNav"><span>&#9776;</span><span>&#10006;</span></button>
+            </div>
+            <ul id="primeryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+            </ul>
+            <p class="infoDisplay" id="date"></p>
+            </nav>
+            <div id="banner" >
+                <img src="images/Document.jpg" alt="BCC logo">
+                <a href="">Come join us for the chamber meet and greet Wednesday at 7:00 p.m</a>
+            </div>
+    </header>
+
+
+    <main>
+        
+        <div id="directoryBnts">
+            <h2 id ="directoryTitle">Business Directory</h2>
+            <button id="hamburgerBtnCards"><span>&#9776;</span></button>
+            <button id="hamburgerBtnTable"><span>&#9871;</span></button>
+        </div>
+        <div id="cards"></div>
+        <div id="table" class="hide"></div>
+    </main>
+
+
+    <footer>
+        <div class="footerGrid">
+            <img src="images/logo_small.webp" alt="BCC logo">
+            <p><strong>Beaumont Chamber of Commerce</strong><br>5004 49 Ave, Beaumont,<br> Alberta T4X 1E4  </p>
+            <p>BeaumontCoC@gmail.com <br>1(234)567-8910</p>
+            <a href="https://goo.gl/maps/QnA5LVNdtiZ3m9h96" target="_blank"><img id="map" src="images/Map.webp" alt="Map of our location"></a>
+        </div>
+        <p>@<span id="year"></span> Beaumont C.C. | Ikaika Pulotu | WDD 230 Project | Last Updataed: <span id="lastupdated"></span></p>
+    </footer>
+</body>
+    
+</body>
+</html>
