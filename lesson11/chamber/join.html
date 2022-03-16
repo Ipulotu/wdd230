@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="The purpose of this page is for the prospective user to apply to join the chamber of commerce through a membership application form.">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <title>Join Us</title>
+
+    <script defer src="../../js/index.js"></script>
+    <script defer src="js/chamber.js"></script>
+    <script defer src="js/join.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <div class="navGrid">
+                <img src="images/logo_small.webp" alt="BCC logo">
+                <h1>Beaumont Chamber of Commerce</h1>
+                <a href="https://www.facebook.com/" target="_blank" id="fac"><img class="smallIcon" src="images/fbook_icon.webp" alt="facebook picture" width="48" height="48"></a>
+                <a href="https://twitter.com/?lang=en/" target="_blank" id="goo"><img class="smallIcon" src="images/twiter_logo.webp" alt="Twitter picture" width="48" height="48"></a>
+                <button id="hamburgerBtnNav"><span>&#9776;</span><span>&#10006;</span></button>
+            </div>
+            <ul id="primeryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p class="infoDisplay" id="date"></p>
+            </nav>
+            <div id="banner" >
+                <img src="images/Document.jpg" alt="BCC logo">
+                <a href="">Come join us for the chamber meet and greet Wednesday at 7:00 p.m</a>
+            </div>
+    </header>
+    
+    <h2 class="h2Title">Beaumont Chamber Application</h2>
+    <form method="get" action="thankyou.html">
+        <fieldset>
+            <legend>Applicant information</legend>
+            <label class="top_input" >First Name*<input type="text" name="fname" required></label>
+            <label class="top_input">Last Name*<input type="text" name="lname" required></label>
+            <label class="top_input">Business Position<input type="text" name="title" placeholder="CEO, Marketing Manager, exe " pattern="[A-Za-z-\s]{7,}"></label>
+            <label class="top_input">Email*<input type="email" name="email" placeholder="jonedoe@gmail.com" required></label>
+            <label class="top_input">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+            <label class="top_input">Business name*<input type="text" name="businessName" required></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Membership Information</legend>
+            <div>Chooses Your Membership Level </div>
+            <label class="sbs_input"><input type="radio" name="membership" value="Bronze">Bronze Membership</label>
+            <p>Price: $50 Annually Includes: Trainings & Weekly Emails</p>
+            <label class="sbs_input"><input type="radio" name="membership" value="Silver">Silver Membership</label>
+            <p>Price: $85 Annually Includes: Trainings & Home Page Spotlights </p>
+            <label class="sbs_input"><input type="radio" name="membership" value="Gold">Gold Membership</label>
+            <p>Price: $100 Annually Includes:  Trainings, Home Page Spotlights, Event Discounts and more! </p>
+            <label class="sbs_input"><input type="radio" name="membership" value="NP">NP Membership</label>
+            <p>Price: Free Includes: All of the above features</p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Business Information</legend>
+            <textarea name="description" placeholder="Tell us a little bit about your business." rows="4" cols="50"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Subscription</legend>
+            <label>Would you like to recive...</label>
+            <label class="sbs_input"><input type="checkbox" name="newsletters" value="yes">Weekly Newsletters</label>
+            <label class="sbs_input"><input type="checkbox" name="promotions" value="yes">Special Promotions</label>
+            <input  id="datetime" type="hidden" name="datetime" value="">
+            
+        </fieldset>
+
+        <input type="submit" value="Join Chamber!" class="submitBtn">
+
+    </form>
+
+    <footer>
+        <div class="footerGrid">
+            <img src="images/logo_small.webp" alt="BCC logo">
+            <p><strong>Beaumont Chamber of Commerce</strong><br>5004 49 Ave, Beaumont,<br> Alberta T4X 1E4  </p>
+            <p>BeaumontCoC@gmail.com <br>1(234)567-8910</p>
+            <a href="https://goo.gl/maps/QnA5LVNdtiZ3m9h96" target="_blank"><img id="map" src="images/Map.webp" alt="Map of our location"></a>
+        </div>
+        <p>@<span id="year"></span> Beaumont C.C. | Ikaika Pulotu | WDD 230 Project | Last Updataed: <span id="lastupdated"></span></p>
+    </footer>
+</body>
+
+
+
+</html>
