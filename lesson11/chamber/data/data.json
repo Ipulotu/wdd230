@@ -2,6 +2,7 @@
     "businesses": [
       {
         "name":"Ealanta Photography",
+        "membership":"Silver",
         "addresses":"107 Lakeview Crescent Beaumont AB T4X 1T4",
         "phones":"(780) 619-3582",
         "websites":"https://www.ealantaphotography.com/",
@@ -10,6 +11,7 @@
       },
       {
         "name":"RuminariLive Arts",
+        "membership":"Bronze",
         "addresses":"117-5305 Magasin Ave Beaumont AB T4X 1V8",
         "phones":"(780) 737-3003",
         "websites":"https://ruminarilive.com",
@@ -18,6 +20,7 @@
       },
       {
         "name":"Nyquest Entertainment Ltd",
+        "membership":"Silver",
         "addresses":"5607 42 St Beaumont AB T4X0A7",
         "phones":"(780) 297-8719",
         "websites":"https://www.nyquestentertainment.com",
@@ -27,6 +30,7 @@
       },
       {
         "name":"Home Hardware",
+        "membership":"Gold",
         "addresses":"#104 5700 - 50 Street  Beaumont, Alberta, T4X1M8",
         "phones":"(780) 929-9116",
         "websites":"https://www.homehardware.ca",
@@ -36,6 +40,7 @@
       },
       {
         "name":"Anytime Fitness",
+        "membership":"Silver",
         "addresses":"102, 6304 - 29 ave beaumont AB t4x 0h5",
         "phones":"(780) 929-3416",
         "websites":"https://www.anytimefitness.com",
@@ -44,6 +49,7 @@
       },
       {
         "name":"CorePro8",
+        "membership":"Gold",
         "addresses":"5414 Rue Eaglemont Beaumont Alberta T4X0H2",
         "phones":"7808198651",
         "websites":"http://www.Corepro8.com",
@@ -52,6 +58,7 @@
       },
       {
         "name":"Cheyenne Tree Farms Ltd",
+        "membership":"Bronze",
         "addresses":"24309  Twp Rd 510 Beaumont AB T4X 1K8",
         "phones":"(780) 929-8102",
         "websites":"http://www.cheyennetree.ca",
@@ -60,6 +67,7 @@
       },
       {
         "name":"Postmedia - Beaumont News",
+        "membership":"Gold",
         "addresses":"4908 50 Ave Beaumont AB T4X 1J9",
         "phones":"(780) 464-0033",
         "websites":"https://www.thebeaumontnews.ca",
@@ -68,6 +76,7 @@
       },
       {
         "name":"Business Impact Coaching Inc.",
+        "membership":"Gold",
         "addresses":"151 Rue Monique Beaumont AB T4X 0G3",
         "phones":"(587) 832-5596",
         "websites":"https://business-impact.ca",
@@ -76,6 +85,7 @@
       },
       {
         "name":"LA Laser & Spa Inc.",
+        "membership":"Silver",
         "addresses":"5001 48 st Beaumont AB T4X 1H7",
         "phones":"(780) 232-0965",
         "websites":"https://lalaserandspa.ca",
@@ -85,6 +95,7 @@
       },
       {
         "name":"Montrose Pet Clinic",
+        "membership":"Bronze",
         "addresses":"109, 6002 29 Avenue Beaumont AB T4X 0H5",
         "phones":"(780) 929-7363",
         "websites":"https://www.montrosepetclinic.com/",
@@ -93,6 +104,7 @@
       },
       {
         "name":"DCS Admin Services",
+        "membership":"Silver",
         "addresses":"5803 - 63 Street Beaumont Alberta T4X 0X3",
         "phones":"(780) 278-9703",
         "websites":"https://www.dcsadminservices.com",
