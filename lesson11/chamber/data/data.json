@@ -1,0 +1,92 @@
+{
+    "businesses": [
+      {
+        "name":"Ealanta Photography",
+        "addresses":"107 Lakeview Crescent Beaumont AB T4X 1T4",
+        "phones":"(780) 619-3582",
+        "websites":"https://www.ealantaphotography.com/",
+        "image":"https://cdn.shopify.com/s/files/1/1639/0011/files/ealanta_new_e_art_wear_400x.jpg?v=1491171960"
+      },
+      {
+        "name":"RuminariLive Arts",
+        "addresses":"117-5305 Magasin Ave Beaumont AB T4X 1V8",
+        "phones":"(780) 737-3003",
+        "websites":"https://ruminarilive.com",
+        "image":"https://chambermaster.blob.core.windows.net/images/customers/2214/members/380/logos/MEMBER_PAGE_HEADER/RuminariLive_Logo.jpg"
+      },
+      {
+        "name":"Nyquest Entertainment Ltd",
+        "addresses":"5607 42 St Beaumont AB T4X0A7",
+        "phones":"(780) 297-8719",
+        "websites":"https://www.nyquestentertainment.com",
+        "image":"https://chambermaster.blob.core.windows.net/images/customers/2214/members/510/logos/MEMBER_LOGO/D3076F4B-E134-45AC-8CB2-31A1973EA4AF.jpeg",
+        "slogan":"Making memories that last a lifetime."
+      },
+      {
+        "name":"Home Hardware",
+        "addresses":"#104 5700 - 50 Street  Beaumont, Alberta, T4X1M8",
+        "phones":"(780) 929-9116",
+        "websites":"https://www.homehardware.ca",
+        "image":"https://homehardware.sirv.com/resources/images/hh-logo.svg",
+        "slogan":"Help is close to home!"
+      },
+      {
+        "name":"Anytime Fitness",
+        "addresses":"102, 6304 - 29 ave beaumont AB t4x 0h5",
+        "phones":"(780) 929-3416",
+        "websites":"https://www.anytimefitness.com",
+        "image":"https://logos-world.net/wp-content/uploads/2022/01/Anytime-Fitness-New-Logo-700x394.png"
+      },
+      {
+        "name":"CorePro8",
+        "addresses":"5414 Rue Eaglemont Beaumont Alberta T4X0H2",
+        "phones":"7808198651",
+        "websites":"http://www.Corepro8.com",
+        "image":"https://chambermaster.blob.core.windows.net/images/customers/2214/members/472/logos/MEMBER_PAGE_HEADER/Final.png"
+      },
+      {
+        "name":"Cheyenne Tree Farms Ltd",
+        "addresses":"24309  Twp Rd 510 Beaumont AB T4X 1K8",
+        "phones":"(780) 929-8102",
+        "websites":"http://www.cheyennetree.ca",
+        "image":"https://chambermaster.blob.core.windows.net/images/customers/2214/members/57/logos/MEMBER_LOGO/Website_Rooty_and_40_yrs.JPG"
+      },
+      {
+        "name":"Postmedia - Beaumont News",
+        "addresses":"4908 50 Ave Beaumont AB T4X 1J9",
+        "phones":"(780) 464-0033",
+        "websites":"https://www.thebeaumontnews.ca",
+        "image":"https://www.postmediasolutions.com/wp-content/uploads/2019/09/beaumont-news.png"
+      },
+      {
+        "name":"Business Impact Coaching Inc.",
+        "addresses":"151 Rue Monique Beaumont AB T4X 0G3",
+        "phones":"(587) 832-5596",
+        "websites":"https://business-impact.ca",
+        "image":"https://business-impact.ca/site/wp-content/uploads/wes-kowalchuk-logo.png"
+      },
+      {
+        "name":"LA Laser & Spa Inc.",
+        "addresses":"5001 48 st Beaumont AB T4X 1H7",
+        "phones":"(780) 232-0965",
+        "websites":"https://lalaserandspa.ca",
+        "image":"https://lalaserandspa.ca/wp-content/uploads/2022/01/cropped-LA-Logo-BLACK-removebg-preview.png",
+        "slogan":"For beautiful people like you!"
+      },
+      {
+        "name":"Montrose Pet Clinic",
+        "addresses":"109, 6002 29 Avenue Beaumont AB T4X 0H5",
+        "phones":"(780) 929-7363",
+        "websites":"https://www.montrosepetclinic.com/",
+        "image":"https://www.montrosepetclinic.com/files/2020/12/Untitled39_20201204151334-e1607976425910.png"
+      },
+      {
+        "name":"DCS Admin Services",
+        "addresses":"5803 - 63 Street Beaumont Alberta T4X 0X3",
+        "phones":"(780) 278-9703",
+        "websites":"https://www.dcsadminservices.com",
+        "image":"https://static.wixstatic.com/media/9250f7_82e200be42a74ce9b2fa2104e6257604~mv2.png/v1/crop/x_0,y_49,w_250,h_152/fill/w_219,h_133,al_c,q_85,usm_0.66_1.00_0.01/dcs%20admin%20services%20logo%20(1).webp"
+      }
+      
+    ]
+}
