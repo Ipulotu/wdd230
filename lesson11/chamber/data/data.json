@@ -22,7 +22,8 @@
         "phones":"(780) 297-8719",
         "websites":"https://www.nyquestentertainment.com",
         "image":"https://chambermaster.blob.core.windows.net/images/customers/2214/members/510/logos/MEMBER_LOGO/D3076F4B-E134-45AC-8CB2-31A1973EA4AF.jpeg",
-        "slogan":"Making memories that last a lifetime."
+        "slogan":"Making memories that last a lifetime.",
+        "email":"info@nyquestentertainment.com"
       },
       {
         "name":"Home Hardware",
@@ -30,7 +31,8 @@
         "phones":"(780) 929-9116",
         "websites":"https://www.homehardware.ca",
         "image":"https://homehardware.sirv.com/resources/images/hh-logo.svg",
-        "slogan":"Help is close to home!"
+        "slogan":"Help is close to home!",
+        "email":"contactus@homehardware.ca"
       },
       {
         "name":"Anytime Fitness",
@@ -78,7 +80,8 @@
         "phones":"(780) 232-0965",
         "websites":"https://lalaserandspa.ca",
         "image":"https://lalaserandspa.ca/wp-content/uploads/2022/01/cropped-LA-Logo-BLACK-removebg-preview.png",
-        "slogan":"For beautiful people like you!"
+        "slogan":"For beautiful people like you!",
+        "email":"reception@lalaserandspa.ca"
       },
       {
         "name":"Montrose Pet Clinic",

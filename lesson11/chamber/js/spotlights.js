@@ -33,7 +33,7 @@ fetch("https://ipulotu.github.io/wdd230/lesson11/chamber/data/data.json")
     slogan.textContent =  `${business.slogan}`;
 
 
-    display = `<p class ="border">contact@Treefort.com <br> ${business.phones} | <a href="${business.websites}">Website</a></p>`
+    display = `<p class ="border">${business.email} <br> ${business.phones} | <a href="${business.websites}">Website</a></p>`
 
     // Add/append the section(card) with the h3 element
     card.appendChild(h3);
