@@ -6,9 +6,33 @@ fetch("https://ipulotu.github.io/wdd230/lesson11/chamber/data/data.json")
 })
 .then(function (jsonObject) {
     const business = jsonObject.businesses; 
-    displaybusinessCard(business[2]);
-    displaybusinessCard(business[3]);
-    displaybusinessCard(business[9]);
+    running = true
+    while (running) {
+        num1 = Math.floor(Math.random() * 12)
+        bus1 = business[num1]
+        if (bus1.membership == "Bronze"){
+            continue;
+        }
+        num2 = Math.floor(Math.random() * 12)
+        bus2 = business[num2]
+        if (bus2.membership == "Bronze" || num1 == num2 ){
+            continue;
+        }
+
+        num3 = Math.floor(Math.random() * 12)
+        bus3 = business[num3]
+        if (bus3.membership == "Bronze" || num1 == num3 || num2 == num3){
+            continue;
+        }
+        displaybusinessCard(bus1);
+        displaybusinessCard(bus2);
+        displaybusinessCard(bus3);
+
+        running = false
+
+    }
+
+   
    
   });
 
