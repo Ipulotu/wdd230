@@ -26,7 +26,7 @@ fetch("https://ipulotu.github.io/wdd230/lesson11/chamber/data/data.json")
         }
         displaybusinessCard(bus1);
         displaybusinessCard(bus2);
-        displaybusinessCard(bus3);
+        displaybusinessCard(bus3, "spotlight3");
 
         running = false
 
@@ -36,7 +36,7 @@ fetch("https://ipulotu.github.io/wdd230/lesson11/chamber/data/data.json")
    
   });
 
-  function displaybusinessCard(business) {
+  function displaybusinessCard(business, id = None) {
     // Create elements to add to the document
     let card = document.createElement('div');
     let h3 = document.createElement('h3');
@@ -64,6 +64,10 @@ fetch("https://ipulotu.github.io/wdd230/lesson11/chamber/data/data.json")
     card.appendChild(portrait);
     card.appendChild(slogan);
     card.insertAdjacentHTML( 'beforeend', display );
+
+    if (id != None){
+        card.setAttribute('id', id);
+    }
     
     // Add/append the existing HTML div with the cards class with the section(card)
     spotlights.appendChild(card);
