@@ -324,6 +324,11 @@ footer{
     display: block;
     padding: .75rem;
     color: #555;
+
+  }
+
+  .sbs_input{
+      font-weight: bold;
   }
   
   form fieldset:nth-child(3), form textarea{
