@@ -36,7 +36,7 @@ fetch("https://ipulotu.github.io/wdd230/lesson11/chamber/data/data.json")
    
   });
 
-  function displaybusinessCard(business, id = None) {
+  function displaybusinessCard(business, id = "") {
     // Create elements to add to the document
     let card = document.createElement('div');
     let h3 = document.createElement('h3');
@@ -65,7 +65,7 @@ fetch("https://ipulotu.github.io/wdd230/lesson11/chamber/data/data.json")
     card.appendChild(slogan);
     card.insertAdjacentHTML( 'beforeend', display );
 
-    if (id != None){
+    if (id != ""){
         card.setAttribute('id', id);
     }
     
