@@ -422,6 +422,10 @@ fieldset p{
 
 /*==========Contact page============*/
 
+#contactGrid > *{
+    margin: 0;
+}
+
 #contactGrid{
 display: grid;
  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -429,6 +433,9 @@ display: grid;
 #hoursGrid {
     display:grid;
     padding: 1rem;
+    background: #eee;
+    border: 1px solid #140B4C;
+    margin: 1rem;
 }
 #hoursGrid table{
     border-bottom: 2px solid #140B4C;
@@ -443,9 +450,7 @@ display: grid;
     display: grid;
 }
 
-#contactGrid > *{
-    margin: 0;
-}
+
 
 #contactGrid p{
     margin: 0;

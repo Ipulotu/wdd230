@@ -57,5 +57,22 @@
     font-size: .8rem;
 }
 
+
+
+
+/*==========Directory page============*/
+
+
+#contactForm input{
+    padding: .5rem;
+}
+
+
+
+
+
+#contactForm .top_input{
+    padding: .5rem;
+}
     }
     /*End of media quore*/
