@@ -6,6 +6,10 @@ fetch("https://ipulotu.github.io/wdd230/lesson11/chamber/data/data.json")
 })
 .then(function (jsonObject) {
     const business = jsonObject.businesses; 
+
+
+
+
     running = true
     while (running) {
         num1 = Math.floor(Math.random() * 12)
@@ -18,7 +22,6 @@ fetch("https://ipulotu.github.io/wdd230/lesson11/chamber/data/data.json")
         if (bus2.membership == "Bronze" || num1 == num2 ){
             continue;
         }
-
         num3 = Math.floor(Math.random() * 12)
         bus3 = business[num3]
         if (bus3.membership == "Bronze" || num1 == num3 || num2 == num3){
@@ -27,9 +30,7 @@ fetch("https://ipulotu.github.io/wdd230/lesson11/chamber/data/data.json")
         displaybusinessCard(bus1);
         displaybusinessCard(bus2);
         displaybusinessCard(bus3, "spotlight3");
-
         running = false
-
     }
 
    
