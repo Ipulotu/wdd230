@@ -6,43 +6,45 @@ fetch("https://ipulotu.github.io/wdd230/templeinn/data/temples.json")
    return response.json();
 })
 .then(function (jsonObject) {
-    const business  = jsonObject.businesses; 
-  business.forEach(displaybusinessCard);
-  business.forEach(displaybusinessTable);
+    const temples  = jsonObject.temples; 
+  temples.forEach(displaybusinessCard);
   });
 
 
-  function displaybusinessCard(business) {
+  function displaybusinessCard(temple) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
+    let dedicated = document.createElement('p');
     let addresse = document.createElement('p');
-    let phoen = document.createElement('p');
-    let website = document.createElement('a');
-  
-    // Change the textContent property of the h2 element to contain the business's full name
-    h2.textContent = `${business.name}`;
+    let button = document.createElement('button');
 
-    addresse.textContent =`${business.addresses}`;
-    phoen.textContent =`${business.phones}`;
-  
-    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    portrait.setAttribute('src', business.image);
-    portrait.setAttribute('alt', `Business logo of ${business.name}`);
+    
+    h2.textContent = `${temple.name}`;
+    portrait.setAttribute('src', temple.image);
+    portrait.setAttribute('alt', `Business logo of ${temple.name}`);
     portrait.setAttribute('loading', 'lazy');
+    dedicated.textContent =`Dedicated: ${temple.dedicated}`;
+    addresse.textContent =`${temple.Address}`;
 
-    //Build link
-    website.href = business.websites
-    website.textContent = business.websites;
-
-    // Add/append the section(card) with the h2 element
     card.appendChild(portrait);
     card.appendChild(h2);
     card.appendChild(addresse);
-    card.appendChild(phoen);
-    card.appendChild(website);
+    card.appendChild(button);
+
     
-    // Add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card);
+
+
+    // let div = document.createElement('div');
+    // let phone = document.createElement('p');
+    // let website = document.createElement('a');
+    // phone.textContent = `${temple.phones}`
+    // website.href = temple.websites
+    // website.textContent = temple.websites;
+    // card.appendChild(phoen);
+    // card.appendChild(website);
+    
+  
   }

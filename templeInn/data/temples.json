@@ -1,46 +1,6 @@
 {
     "temples": [
       {
-        "name":"Aba Nigeria Temple",
-        "location":"Nigeria",
-        "dedicated":"7 August 2005",
-        "phones":"(234) 80-3903-4810",
-        "Address":"72-80 Okpu-Umuobo Rd, AbaAbia State, Nigeria",
-        "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-1636397-wallpaper.jpg",
-        "Services":"No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-        "website":"https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng"
-      },
-      {
-        "name":"Atlanta Georgia Temple",
-        "location":"United States",
-        "dedicated":"1 June 1983",
-        "phones":"(1) 770-393-3698",
-        "Address":"6450 Barfield Rd NE, Sandy Springs GA 30328-4283, United States",
-        "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/atlanta-georgia/400x250/atlanta-georgia-mormon-temple-900182-wallpaper.jpg",
-        "Services":"No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-        "website":"https://www.churchofjesuschrist.org/temples/details/atlanta-georgia-temple?lang=eng"
-      },
-      {
-        "name":"Barranquilla Colombia Temple",
-        "location":"Colombia",
-        "dedicated":"9 December 2018",
-        "phones":"(57) 5-310-0200",
-        "Address":"Carrera 46 via al mar pr 107, Sentido: de Barranquilla a Cartagena, Barranquilla Atlantico, Colombia",
-        "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/400x640/1-Barranquilla-Columblia-Temple-2144160.jpg",
-        "Services":"No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-        "website":"https://www.churchofjesuschrist.org/temples/details/barranquilla-colombia-temple?lang=eng"
-      },
-      {
-        "name":"Billings Montana Temple",
-        "location":"United States",
-        "dedicated":"20 November 1999",
-        "phones":"(1) 406-655-0607",
-        "Address":"3100 Rim Point Dr, Billings MT 59106-1386, United States",
-        "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/billings-montana/400x250/01-Billings-Montana-Temple-2220702.jpg",
-        "Services":"Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-        "website":"https://www.churchofjesuschrist.org/temples/details/billings-montana-temple?lang=eng"
-      },
-      {
         "name":"Cardston Alberta Temple",
         "location":"Canada",
         "dedicated":"26 August 1923",
@@ -48,37 +8,12 @@
         "Address":"348 3rd St W, Cardston AB T0K 0K0, Canada",
         "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cardston-alberta/400x250/cardston-alberta-temple-exterior-1126230-wallpaper.jpg",
         "Services":"Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-        "website":"https://www.churchofjesuschrist.org/temples/details/cardston-alberta-temple?lang=eng"
-      },
-      {
-        "name":"Caracas Venezuela Temple",
-        "location":"Venezuela",
-        "dedicated":"20 August 2000",
-        "phones":"(58) 212-985-3051",
-        "Address":"Avenida. C con Calle C-1, Urb Caurimare, Caracas 1062-A, Dependencias Federales, Venezuela",
-        "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/caracas-venezuela/400x225/caracas_venezuela_temple_detail_1691066_2400x1200.jpg",
-        "Services":"No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-        "website":"https://www.churchofjesuschrist.org/temples/details/caracas-venezuela-temple?lang=eng"
-      },
-      {
-        "name":"Copenhagen Denmark Temple",
-        "location":"Denmark",
-        "dedicated":"23 May 2004",
-        "phones":"(45) 38-18-1818",
-        "Address":"Priorvej 12, 2000 Frederiksberg, Denmark",
-        "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/copenhagen-denmark/400x250/copenhagen-denmark-temple-lds-278232-wallpaper.jpg",
-        "Services":"No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-        "website":"https://www.churchofjesuschrist.org/temples/details/copenhagen-denmark-temple?lang=eng"
-      },
-      {
-        "name":"Guadalajara Mexico Temple",
-        "location":"Mexico",
-        "dedicated":"29 April 2001",
-        "phones":"(52) 33-3125-1283",
-        "Address":"Av. Patria #879, Fracc. Jardines Tepeyac, 45030 Zapopan, Jalisco, Mexico",
-        "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/guadalajara-mexico/400x250/guadalajara-mexico-temple-1368114-wallpaper.jpg",
-        "Services":"No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-        "website":"https://www.churchofjesuschrist.org/temples/details/guadalajara-mexico-temple?lang=eng"
+        "website":"https://www.churchofjesuschrist.org/temples/details/cardston-alberta-temple?lang=eng",
+        "history":[ "27 June 1913 Announced", "27 July 1913 Groundbreaking", "26 August 1923 Dedicated ", "2 July 1962 Rededicated ", "22 June 1991 Rededicated "],
+        "ordinance":"All ordinances are available by appointment only",
+        "session schedule":["9:30 AM", "1:00 PM", "3:30 PM", "6:00 PM", "7:00 PM"],
+        "closure schedule":["Friday, 1 July 2022", "Monday, 19 September 2022 - Monday, 3 October 2022", "Friday, 11 November 2022", "Saturday, 24 December 2022 - Tuesday, 27 December 2022", "Saturday, 31 December 2022"]
+
       },
       {
         "name":"Edmonton Alberta Temple",
@@ -88,7 +23,11 @@
         "Address":"14335 53rd Ave NW, Edmonton AB T6H 5G6, Canada",
         "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/edmonton-alberta/400x250/edmonton-alberta-temple-lds-83329-wallpaper.jpg",
         "Services":"No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
-        "website":"https://www.churchofjesuschrist.org/temples/details/edmonton-alberta-temple?lang=eng"
+        "website":"https://www.churchofjesuschrist.org/temples/details/edmonton-alberta-temple?lang=eng",
+        "history":[ "11 August 1998 Announced", "27 February 1999 Groundbreaking", "11 December 1999 Dedicated"],
+        "ordinance":"All ordinances are available by appointment only",
+        "session schedule":["9:30 AM ", "11:00 AM", "4:30 PM ", "6:00 PM ", "7:30 PM "],
+        "closure schedule":[ "Friday, 1 July 2022", "Monday, 18 July 2022 - Monday, 26 September 2022", "Saturday, 1 October 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"]
       },
       {
         "name":"Fortaleza Brazil Temple",
@@ -98,7 +37,11 @@
         "Address":"Avenida Santos Dumont 7771 Bairro de Lourdes, 60177-415 Fortaleza - CE, Brazil",
         "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fortaleza-brazil/400x250/1-Fortaleza-Temple-Photo-2233938.jpg",
         "Services":"No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-        "website":"https://www.churchofjesuschrist.org/temples/details/fortaleza-brazil-temple?lang=eng"
+        "website":"https://www.churchofjesuschrist.org/temples/details/fortaleza-brazil-temple?lang=eng",
+        "history":[ "3 October 2009 Announced", "15 November 2011 Groundbreaking", "2 June 2019 Dedicated"],
+        "ordinance":"All ordinances are available by appointment only",
+        "session schedule":["10:00 AM","3:00 PM ", "7:00 PM ", "7:40 PM "],
+        "closure schedule":["Monday, 28 March 2022 - Monday, 11 April 2022", "Friday, 15 April 2022 (Limited Operations)", "Thursday, 21 April 2022 (Limited Operations)", "Saturday, 1 October 2022", "Tuesday, 15 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"]
       },
       {
         "name":"Laie Hawaii Temple",
@@ -108,7 +51,11 @@
         "Address":"55-600 Naniloa Loop, Laie HI 96762-2202, United States",
         "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/laie-hawaii/400x640/hawaii-temple-761091-wallpaper.jpg",
         "Services":"Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-        "website":"https://www.churchofjesuschrist.org/temples/details/laie-hawaii-temple?lang=eng"
+        "website":"https://www.churchofjesuschrist.org/temples/details/laie-hawaii-temple?lang=eng",
+        "history":[ "3 October 1915 Announced", "8 February 1916 Groundbreaking", "27 November 1919 Dedicated", "13 June 1978 Rededicated", "21 November 2010 Rededicated"],
+        "ordinance":"All ordinances are available by appointment only",
+        "session schedule":["5:30 PM", "6:00 PM", "7:00 PM", "8:00 PM"],
+        "closure schedule":[ "Friday, 30 September 2022 (Limited Operations)", "Saturday, 1 October 2022", "Thursday, 24 November 2022", "Friday, 23 December 2022 (Limited Operations)", "Saturday, 24 December 2022 - Monday, 26 December 2022"]
       },
       {
         "name":"Las Vegas Nevada Temple",
@@ -118,27 +65,11 @@
         "Address":"827 Temple View Dr, Las Vegas NV 89110-2920, United States",
         "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/las-vegas-nevada/400x250/las-vegas-temple-lds-758757-wallpaper.jpg",
         "Services":"Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-        "website":"https://www.churchofjesuschrist.org/temples/details/las-vegas-nevada-temple?lang=eng"
-      },
-      {
-        "name":"Lubbock Texas Temple",
-        "location":"United States",
-        "dedicated":"21 April 2002",
-        "phones":"(1) 806-794-0774",
-        "Address":"7016 Frankford Ave, Lubbock TX 79424, United States",
-        "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lubbock-texas/400x250/lubbock-temple-lds-126691-wallpaper.jpg",
-        "Services":"No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
-        "website":"https://www.churchofjesuschrist.org/temples/details/lubbock-texas-temple?lang=eng"
-      },
-      {
-        "name":"Rome Italy Temple",
-        "location":"Italy",
-        "dedicated":"10 March 2019",
-        "phones":"(39) 06-9480-5050",
-        "Address":"Via di Settebagni 376, Rome RM, Italy",
-        "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/2019/400x250/1-Rome-Temple-2160936.jpg",
-        "Services":"Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
-        "website":"https://www.churchofjesuschrist.org/temples/details/rome-italy-temple?lang=eng"
+        "website":"https://www.churchofjesuschrist.org/temples/details/las-vegas-nevada-temple?lang=eng",
+        "history":[ "7 April 1984 Announced", "30 November 1985 Groundbreaking", "16 December 1989 Dedicated "],
+        "ordinance":"All ordinances are available by appointment only",
+        "session schedule":["8:00 AM ", "9:00 AM ", "10:00 AM","11:00 AM","12:00 PM","1:00 PM ", "2:00 PM ", "3:00 PM ", "4:00 PM ", "5:00 PM ", "6:00 PM ", "7:00 PM "],
+        "closure schedule":[ "Monday, 11 July 2022 - Monday, 25 July 2022", "Saturday, 1 October 2022", "Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022"]
       }
     ]
 }
