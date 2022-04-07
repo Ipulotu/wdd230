@@ -11,8 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,500&display=swap" rel="stylesheet">
     <link href="css/mian.css" rel="stylesheet">
     <script defer src="js/main.js"></script>
-    <script defer src="js/temples.js"></script>
-    <title>Temples</title>
+    <title>Full-time Temple Missionary</title>
 </head>
 <body>
     <header>
@@ -24,16 +23,66 @@
             </div>
             <ul id="primeryNav">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#" class="currentPage">Temples</a></li>
+                <li><a href="temples.html" >Temples</a></li>
                 <li><a href="reservation.html">Reservations</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="servicesMain">
     
-        <div id="cards"></div>
+        <h2>Full-time Temple Missionary Suites</h2>
+        <div id="suites-greid">
+            <div>
+                <table id="suitesTable">
+                    <tr>
+                    <th>Bed Rooms</th>
+                    <th>Bathrooms</th>
+                    <th>Starting cost per week</th>
+                    </tr>
+                    <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>$450CAD</td>
+                    </tr>
+                    <tr>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>$500CAD</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>$530CAD</td>
+                    </tr>
+                </table>
+
+                <h3>Special discounts</h3>
+                <ul>
+                    <li>5% off for a month or longer</li>
+                    <li>Military discount</li>
+                    <li>60+ senior discount</li>
+                </ul>
+            </div>
+            
+        <form id="templeForm" method="get" action="thankYouC.html">
+            <fieldset>
+                <legend>Contact us</legend>
+                <label class="sbs_input"><input type="text" name="name"  placeholder="Name" required></label>    
+                <label class="sbs_input"><input type="text" name="email" placeholder="Email"required></label>              
+                <textarea name="description" placeholder="Message" rows="4" cols="30"></textarea>
+            </fieldset>
+            <input type="submit" value="Send" class="submitBtn">
+        </form>
+    </div>
+
+    <div class="centerImg">
+        <img src="images/kitchen.jpg" alt="apartment kitchen">
+        <img src="images/bedRoom.jpg" alt="apartment Bed room">
+        <img src="images/livingRoom.jpg" alt="apartment Living room">
+    </div>
+
 
     </main>
     <footer>

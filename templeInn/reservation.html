@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This page highlight and give information on 5 diffrent temples">
+    <meta name="description" content="On this page users can make reservations to stay or host an event.">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,500&display=swap" rel="stylesheet">
     <link href="css/mian.css" rel="stylesheet">
     <script defer src="js/main.js"></script>
-    <script defer src="js/temples.js"></script>
-    <title>Temples</title>
+    
+    <title>Reservations</title>
 </head>
 <body>
     <header>
@@ -24,16 +24,59 @@
             </div>
             <ul id="primeryNav">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#" class="currentPage">Temples</a></li>
-                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="temples.html" >Temples</a></li>
+                <li><a href="#" class="currentPage">Reservations</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <!-- pattern="[A-Za-z-\s]{7,} -->
+
+        <h2>Edmonton Temple Inn & Suites Reservations</h2>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Your information</legend>
+                <label class="top_input" >First Name*<input type="text" name="fname" required></label>
+                <label class="top_input">Last Name*<input type="text" name="lname" required></label>
+                <label class="top_input">Email*<input type="email" name="email" placeholder="jonedoe@gmail.com" required></label>
+                <label class="top_input">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top_input">home state or country<input type="text" name="home"></label>
+
+            </fieldset>
     
-        <div id="cards"></div>
+            <fieldset>
+                <legend>Your stay with us</legend>
+                <label class="top_input">Arrival date<input type="date" name="arrivalDate"></label>
+                <label class="top_input">Departure date<input type="date" name="departureDate"></label>
+                <label class="top_input">Chooses Your room
+                    <select name="sunject">
+                        <option value="">Please Select</option>
+                        <option value="1">Traditional(2 doubles beds)</option>
+                        <option value="2">Traditional(1 Queen bed)</option>
+                        <option value="3">Dulux(1 king bed)</option>
+                        <option value="4">Dulux + view(1 or 2 king beds)</option>
+                        <option value="5">Presidential suite</option>
+                        <option value="5">Residential suite</option>
+                    </select>
+                </label>
+                <label class="top_input">How many rooms?<input type="number" name="rooms"></label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Final thoughts</legend>
+                <label>Would you like to recive emails about Special Promotions</label>
+                <label class="sbs_input"><input type="radio" name="promotions" value="yes">yes</label>
+                <label class="sbs_input"><input type="radio" name="promotions" value="yes">no</label>
+                <textarea name="description" placeholder="Do you have special accommodations/comments?" rows="4" cols="50"></textarea>
+                <input  id="datetime" type="hidden" name="datetime" value="">
+            </fieldset>
+    
+            <input type="submit" value="Reserve now." class="submitBtn">
+    
+        </form>
+
 
     </main>
     <footer>

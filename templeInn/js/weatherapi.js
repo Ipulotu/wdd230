@@ -10,7 +10,7 @@ fetch(apiURL)
       let dt = new Date(i.dt_txt)
       let dn = dt.getDay()
       if (count == 6){
-        if (dn = 0){
+        if (dn == 0){
           displayWeatherCard(i)
           count = 0
         }

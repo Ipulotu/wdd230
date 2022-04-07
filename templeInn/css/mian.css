@@ -5,7 +5,10 @@ html{
     font-family:'Open Sans', sans-serif;
     background-color: #e0f8d9;
 }
-
+main{
+    background-color: #fff;
+    padding: 1rem ;
+}
 
 /*========Header=========*/
 
@@ -149,13 +152,10 @@ footer div :nth-child(6){
     margin: auto;
 }
 
-#weather div:nth-child(4), #weather div:nth-child(5){
+#weather div:nth-child(4), #weather div:nth-child(5),#weather div:nth-child(6){
     display: none;
 }
 
-main{
-    background-color: #fff;
-}
 
 #callToAction>a{
     position: relative;
@@ -179,10 +179,174 @@ main{
     
 } 
 
+/*=======Tempel======*/
+
+.liked{
+    background-color: red;
+}
+
+.hideTemple{
+    display: none;
+}
+
+#cards{
+    display: grid;
+   
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+#cards img{
+    max-width: 350px;
+}
+
+#cards>*{
+    padding: 1rem;
+    border: solid #4e944e;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1rem 0 1rem 0;
+    display: grid;
+    justify-content: center;
+}
+
+#cards span{
+    font-size: large;
+    color: #4e944e;
+}
+
+
+/*=======Reservations=========*/
+
+#form_title{
+    text-align: center;
+    font-size: 2rem ;
+    margin-bottom: 0px;
+  }
+
+  form{
+    padding: 1rem;
+    margin: 0 auto;
+    max-width:510px;
+  }
+  form fieldset{
+      border-radius: 15px;
+      margin-top: 1rem;
+  }
+
+  form legend{
+      margin: 0 1rem;
+      padding: 0 .5rem;
+  }
 
 
 
+ form div, .top_input{
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+  }
 
+  .top_input input, .top_input select{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .5rem 0 .5rem .5rem;
+    color: #140B4C;
+    width: 100%;
+    max-width: 32rem;
+    }
+
+  .sbs_input{
+    display: block;
+    padding: .75rem;
+    color: #555;
+  }
+  
+  
+  .submitBtn{
+      border: none;
+      background-color: #72c863;
+      color: white;
+      border-radius: 1rem;
+      padding: .75rem 1.5rem;
+      margin: 1rem 0 2rem 2%;
+      width: 96%;
+      max-width: 32rem;
+  }
+
+
+/*======services=======*/
+
+.servicesMain{
+    margin: auto;
+}
+
+#twoPgae-grid{
+    display: grid;
+}
+
+#twoPgae-grid a{
+    text-decoration: none;
+}
+
+#twoPgae-grid h3 {
+    z-index: 2;
+    padding: .75rem;
+    background-color: #72c863;
+    color: black;
+
+}
+
+#twoPgae-grid img{
+    width: 100%;
+}
+
+
+/*==========templeMissaryers============*/
+
+
+#suitesTable{
+    text-align: center;
+}
+
+.centerImg{
+    display: grid;
+}
+
+.centerImg img{
+    margin: auto;
+    max-width: 350px;
+}
+
+#templeForm{
+    max-width: 275px;
+    margin: 0%;
+}
+
+#suites-greid div:nth-child(1){
+    padding: 1rem;
+}
+
+/*========thankYouC=========*/
+
+#thankYouC {
+    text-align: center;
+}
+#thankYouC img{
+    max-width: 350px;
+}
+
+
+/*========reception=========*/
+
+#reception-grid{
+   display: grid;
+}
+ 
+#reception-grid img{
+    max-width: 350px;
+}
 
 
 
@@ -209,11 +373,10 @@ main{
         position: absolute;
         top: 67px;
         right: 60px;
+        z-index: 2;
     }
 
-main{ 
-    position: relative;
-}
+
 
 /*========Footer=========*/
 
@@ -280,11 +443,53 @@ footer section{
 
 
 
+/*=========servies=========*/
+
+#twoPgae-grid{
+    display: block;
+}
+
+#twoPgae-grid h3 {
+    position: relative;
+    top: 460px;
+    right: -4px;
+    text-align: center;
+}
+
+.servicesMain{
+   max-width:750px;
+}
+
+#twoPgae-grid img{
+    width: 100%;
+}
+
+/*=========ThankYouC============*/
+
+#thankYouC img{
+    max-width: 100%;
+}
+
+
+
+/*==========templeMissaryers============*/
+.centerImg img{
+    max-width: 100%;
+}
+
+
+
+
+
+
+
 
 }
+
+
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Large view @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
-@media only screen and (min-width:840px) {
+@media only screen and (min-width:1055px) {
 
 
     /*========Golbale=========*/
@@ -293,7 +498,7 @@ footer section{
     /*========Header=========*/
 
     main{ 
-        max-width:  750px;
+        max-width:  1100px;
         margin: auto;
     }
 
@@ -302,7 +507,7 @@ footer section{
     }
 
     nav {
-        max-width: 800px;
+        max-width: 100%;
         margin: auto;
     }
 
@@ -313,6 +518,7 @@ footer section{
     nav h1{
         font-size: 3rem;
         margin: 0%;
+        
     }
 
     .header-grid{
@@ -333,10 +539,10 @@ footer section{
     }
     
     #primeryNav{
+        max-width: 100%;
+        margin: auto;
         display: flex;
         border-left: 1px solid #fff;
-        max-width: 800px;
-        margin: auto;
     }
     
     nav ul li a{
@@ -345,6 +551,17 @@ footer section{
     }
     
     /*========Footer=========*/
+
+    footer div{
+        display: grid;
+        justify-content: stretch;
+        max-width:  1100px;
+        }
+    
+        .centered-grid{
+            display: flex;
+            padding: 1rem;
+        }
 
 
     /*========home==========*/
@@ -363,12 +580,61 @@ footer section{
     }
 
 
+
+
+/*======temples=========*/
+
+#card{
+    
+}
+
+/*=========servies=========*/
+#twoPgae-grid h3 {
+    top: 299px;
+    right: -4px;
+    display: inline;
+}
+
+.servicesMain{
+    max-width:1100px;
+ }
+
+ #twoPgae-grid{
+    display: flex;
+    
+}
+
+#twoPgae-grid img{
+    padding: 1rem;
+    width: 500px;
+}
+
+.centerImg{
+    display: block;
+}
+.centerImg img{
+    max-width: 350px;
+}
+
+#suites-greid{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*======reception========*/
+
+#reception-grid{
+    grid-template-columns: 10% 1fr 1fr;
+ }
+
+
 }
 
 
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Extra Large view @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
-@media only screen and (min-width:980px) {
+@media only screen and (min-width:1255px) {
 
 
     /*========Golbale=========*/
@@ -377,34 +643,7 @@ footer section{
     /*========Header=========*/
 
 
-    main{ 
-        max-width:  1100px;
-        margin: auto;
-    }
-
-    #primeryNav{
-        max-width: 100%;
-        margin: auto;
-        }   
-  
-    nav {
-        max-width: 100%;
-        margin: auto;
-    }
-
-
-/*========Footer=========*/
-
-    footer div{
-    display: grid;
-    justify-content: stretch;
-    max-width:  1100px;
-    }
-
-    .centered-grid{
-        display: flex;
-        padding: 1rem;
-    }
+    /*========Footer=========*/
 
 
     
