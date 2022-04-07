@@ -32,15 +32,14 @@
         </nav>
     </header>
     <main>
-        <!-- pattern="[A-Za-z-\s]{7,} -->
 
         <h2>Edmonton Temple Inn & Suites Reservations</h2>
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Your information</legend>
-                <label class="top_input" >First Name*<input type="text" name="fname" required></label>
-                <label class="top_input">Last Name*<input type="text" name="lname" required></label>
-                <label class="top_input">Email*<input type="email" name="email" placeholder="jonedoe@gmail.com" required></label>
+                <label class="top_input" >First Name*<input type="text" name="fname" pattern="[A-Za-z]{1,32}" required></label>
+                <label class="top_input">Last Name*<input type="text" name="lname" pattern="[A-Za-z]{1,32}" required></label>
+                <label class="top_input">Email*<input type="email" name="email" placeholder="jonedoe@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></label>
                 <label class="top_input">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
                 <label class="top_input">home state or country<input type="text" name="home"></label>
 

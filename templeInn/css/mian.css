@@ -198,6 +198,12 @@ footer div :nth-child(6){
 
 #cards img{
     max-width: 350px;
+   
+}
+
+#cards img:hover {
+    box-shadow: 0 0 50px #333;
+
 }
 
 #cards>*{
@@ -213,6 +219,8 @@ footer div :nth-child(6){
     font-size: large;
     color: #4e944e;
 }
+
+
 
 
 /*=======Reservations=========*/
@@ -310,6 +318,13 @@ footer div :nth-child(6){
     text-align: center;
 }
 
+
+
+#suitesTable td{
+   border :solid #4e944e; 
+   }
+
+
 .centerImg{
     display: grid;
 }
@@ -327,6 +342,8 @@ footer div :nth-child(6){
 #suites-greid div:nth-child(1){
     padding: 1rem;
 }
+
+
 
 /*========thankYouC=========*/
 
@@ -547,7 +564,7 @@ footer section{
     
     nav ul li a{
         border: none;
-        border-right: 1px solid gba(0,0,0,0.3);
+        border-right: 1px solid rgb(0,0,0,0.3);
     }
     
     /*========Footer=========*/
@@ -584,9 +601,7 @@ footer section{
 
 /*======temples=========*/
 
-#card{
-    
-}
+
 
 /*=========servies=========*/
 #twoPgae-grid h3 {
